@@ -1,0 +1,16 @@
+service: lower-price-notifier
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: eu-west-1
+
+functions:
+  run:
+    handler: handler.run
+    events:
+      - schedule: cron(0 2 * * ? *)
+    environment:
+      SNS_TOPIC_ARN: arn:aws:sns:your-topic-arn
+      URL: www.yoururl.com
+      DESIRED_PRICE: 20

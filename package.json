@@ -1,0 +1,14 @@
+{
+  "name": "aws-node-scheduled-cron",
+  "version": "1.0.0",
+  "description": "Example of creating a function that runs as a cron job using the serverless `schedule` event (AWS lambda scraper, publishes to SNS when a certain condition is met)",
+  "author": "Anonyma",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.635.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
