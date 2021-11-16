@@ -5,7 +5,7 @@
   "author": "Anonyma",
   "license": "MIT",
   "devDependencies": {
-    "aws-sdk": "^2.635.0"
+    "aws-sdk": "^2.814.0"
   },
   "dependencies": {
     "axios": "^0.19.2",
